@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav bar */
+.logo{
+    width: 160px;
+    padding-left: 2rem;
+}
+.nl{
+    font-weight: 500;
+    color: #d6cdcd;
+    font-size: 17px;
+}
+.nl:hover{
+    color: #ffffff;
+}
+@media screen and (max-width:768px){
+    .nvbr{
+        display: none;
+    }
+}
+nav.white{
+    background-color: #ffffff;
+}
+a.nl1{
+    font-weight: 500;
+    color: #0e0e0e;
+    font-size: 17px;
+}
+a.nl1:hover{
+    color: #fcce00;
+}
+/* Home_page */
+.home_page{
+    background-image:linear-gradient(#20180b8a,#20180b8a), url(../images/pexels-theuknownphotographer-2767737.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment:fixed;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+}
+.info{
+    font-weight: 200;
+    margin: 0.4rem;
+}
+.t1{
+    font-size:3.5rem ;
+    color: #e4ebe8;
+}
+.t2{
+    font-size: 1.8rem;
+    color: #aaa;
+}
+.txt > .text{
+    border-right: 0.2rem solid #777;
+    color: #fcc100;
+}
+
+@media screen and (min-width: 1200px){
+    .t1{
+        font-size: 4.5rem;
+    }
+    .t2{
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 992px){
+    .mob{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px){
+    .srvd{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px){
+    .contain{
+        padding: 0 1rem;
+    }
+    .t1{
+        font-size: 2.7rem;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .t1{
+        font-size: 1.37rem;
+    }
+    .t2{
+        font-size: 1.5rem;
+    }
+    .srvd{
+        display: none;
+    }
+    .home_page{
+    background-image:linear-gradient(#20180b8a,#20180b8a), url(../images/pexels-sanaan-mazhar-3052361.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment:fixed;
+    }
+}
+/* MY_SERVICES_PAGE */
+.srv{
+    color: #ffd311;
+    float: right;
+}
+.srvd{
+    color: #474747;
+    float: right;
+    text-align: right;
+}
+.con{
+    padding: 0 13px;
+}
+.learn{
+    font-size: 17px;
+    color: #ff0080;
+    font-weight: 600;
+}
+.learn:hover{
+    text-decoration: none;
+    color: #ffae00;
+}
+.sv{
+    margin-top: 45px;
+}
+.serv1{
+    background-image:linear-gradient(#00ff4c75,#00ff4c75), url(../images/computer-564099.jpg);
+    width: 100.3%;
+    height: 15vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px;
+    background-attachment:fixed;
+}
+.serv2{
+    background-image:linear-gradient(#00aeff65,#00aeff65), url(../images/blank-business-composition-computer-373076.jpg);
+    width: 100.3%;
+    height: 15vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px;
+    background-attachment:fixed;
+}
+.serv3{
+    background-image:linear-gradient(#ff2e2e5d,#ff2e2e5d), url(../images/books-business-computer-connection-459654.jpg);
+    width: 100.3%;
+    height: 15vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px;
+    background-attachment:fixed;    
+}
+@media screen and (max-width:500px){
+    .col-md-4{
+        padding-top: 20px;
+    }
+
+}
+
+/* MY SKILLS */
+.ar{
+    padding: 10px 30px 10px 30px;
+}
+.ico{
+    width: 50%;
+    height: 72%;
+}
+.skills{
+    text-align: center;
+}
+.rht{
+    height: 32px;
+    width: 74px;
+}
+.brd{
+    border: 1px solid #ffffff00;
+    border-radius: 4px;
+    box-shadow: 8px 16px 10px #aaa;
+}
+.pad{
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+                                /* DASH BOARD */
+
+.clock_body{
+    background-image: linear-gradient(#20180b8a,#20180b8a), url(../images/alone-buildings-city-cityscape-220444.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.padd{
+    padding-top: 4rem;
+}
+.dis{
+    font-size: 4em;
+    font-weight: 300;
+    padding-top: 50px;
+}
+.clock{
+    text-align: center;
+    color: #ffae00;
+    font-size: 3.7em;
+    font-weight: 400;
+    padding-top: 4em;
+}
+.note{
+    color: #ff0000;
+    text-align: center;
+    padding-top: 30px;
+
+}
+@media screen and (max-width: 800px){
+    .dis{
+        padding-top: 150px;
+    }
+}
+@media screen and (max-width: 500px){
+    .dis{
+    font-size: 2em;
+    font-weight: 300;
+    padding-top: 50px;
+    }
+    .clock{
+    text-align: center;
+    color: #ffae00;
+    font-size: 3em;
+    font-weight: 400;
+    padding-top: 4em;
+    }
+    .clock_body{
+    background-image: linear-gradient(#20180b8a,#20180b8a), url(../images/lock.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+}
+
+                            /* contact */
+
+.locate{
+    height: 35vh;
+    width: 100%;
+}
+.cnt{
+    text-align: center;
+    font-weight: 400;
+    color: #fcce00;
+    padding-top: 20px;
+}
+
+footer{
+    width: 100%;
+    background: #1b1a1a;
+    color: #fff;
+}
+.main-content{
+    display: flex;
+}
+
+.box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.col-md-4 h2{
+    color: #fcc100;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+.row{
+    margin: 25px 0 10px 0 ;
+}
+.fbl{
+    height: 53px;
+    width: auto;
+}
+.adr{
+    height: 50px;
+    width: auto;
+    padding: 10px;
+}
+.text{
+    color: #fdfdfd;
+}
+input,textarea{
+    width: 100%;
+    text-align: center;
+}
+textarea{
+    padding-top: 4%;
+}
+.social{
+    margin-top: 10px;
+}
+.social a{
+    padding: 0 2px;
+}
+.social a img{
+    height: 60px;
+    width: 60px;
+    padding: 10px 10px;
+}
+input,textarea{
+    border: none;
+    border-radius: 3px;
+}
+.bxt{
+    background-color: #fcc100;
+    border-radius: 7px;
+    color: #201e1e;
+    font-weight: 700;
+    padding: 10px;
+}
+.foot{
+    background-image:linear-gradient(#0000008a,#0000008a), url(../images/low-angle-photo-of-four-high-rise-curtain-wall-buildings-830891.jpg);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment:fixed;
+}
+.email,.msg,.but{
+    padding-top: 20px;
+}
+@media screen and (max-width: 800px){
+    .adr{
+        height: 40px;
+        width: auto;
+        padding: 5px;
+    }
+    .text1{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 500px){
+
+}
+.map{
+    padding: 0 0.5px 0 0.5px;
+}
